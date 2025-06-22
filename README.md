@@ -68,15 +68,15 @@ eas build --platform android --profile preview
 
 ### Tela Inicial:
 <div style="display: flex; gap: 15px;">
-   <img src="./assets/images/tela-inicial.jpg" alt="Tela Inicial" width="200"/>
-   <img src="./assets/images/timer-foco.jpg" alt="Timer Foco" width="200"/>
-   <img src="./assets/images/timer-pausa-curta.jpg" alt="Timer Pausa Curta" width="200"/>
-   <img src="./assets/images/timer-pausa-longa.jpg" alt="Timer Pausa Longa" width="200"/>
-   <img src="./assets/images/menu-sidebar.jpg" alt="Menu Sidebar" width="200"/>
-   <img src="./assets/images/to-do-list-inicial.jpg" alt="To Do List Inicial" width="200"/>
-   <img src="./assets/images/to-do-list.jpg" alt="To Do List" width="200"/>
-   <img src="./assets/images/adicionar-tarefa.jpg" alt="Adicionar Tarefa" width="200"/>
-   <img src="./assets/images/editar-tarefa.jpg" alt="Editar Tarefa" width="200"/>
+   <img src="./assets/images/tela-inicial.jpg" alt="Tela Inicial" width="250"/>
+   <img src="./assets/images/timer-foco.jpg" alt="Timer Foco" width="250"/>
+   <img src="./assets/images/timer-pausa-curta.jpg" alt="Timer Pausa Curta" width="250"/>
+   <img src="./assets/images/timer-pausa-longa.jpg" alt="Timer Pausa Longa" width="250"/>
+   <img src="./assets/images/menu-sidebar.jpg" alt="Menu Sidebar" width="250"/>
+   <img src="./assets/images/to-do-list-inicial.jpg" alt="To Do List Inicial" width="250"/>
+   <img src="./assets/images/to-do-list.jpg" alt="To Do List" width="250"/>
+   <img src="./assets/images/adicionar-tarefa.jpg" alt="Adicionar Tarefa" width="250"/>
+   <img src="./assets/images/editar-tarefa.jpg" alt="Editar Tarefa" width="250"/>
 </div>
 
 ## 👩🏻‍💻 Autor
