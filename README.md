@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# 🌱 Zen Focus
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bem-vindo(a) ao projejto **Zen Focus**! Um aplicativo feito para ajudar a encontrar o equilíbrio entre produtividade e bem-estar.
 
-## Get started
+Inspirado na técnica Pomodoro, o ZenFocus foi criado para quem deseja manter o foco em suas tarefas sem deixar de respeitar seus momentos de descanso. Com uma interface simples e intuitiva, ele combina um timer personalizado com uma lista de tarefas prática e eficiente.
+Ideal para estudantes, profissionais e qualquer pessoa que deseje organizar melhor o tempo, manter a mente clara e alcançar objetivos com mais leveza.
 
-1. Install dependencies
+## ✨ Funcionalidades
 
-   ```bash
-   npm install
-   ```
+- ✅ **Tela Inicial**: uma breve apresentação e ponto de partida para navegação no app.
+- ⏱️ **Timer Pomodoro** com três contextos:
+  - **Foco**: 25 minutos para sessões concentradas de trabalho
+  - **Pausa Curta**: 5 minutos para pequenos descansos
+  - **Pausa Longa**: 15 minutos para intervalos maiores
+- 📝 **To-do List**:
+  - Adicionar novas tarefas
+  - Editar tarefas existentes
+  - Excluir tarefas existentes
+- 💾 **Salvamento local de dados** para manter suas tarefas mesmo após fechar o app
 
-2. Start the app
+## 🛠️ Tecnologias Utilizadas
 
-   ```bash
-   npx expo start
-   ```
+- [Expo](https://expo.dev/) – para build e execução rápida do app
+- [React Native](https://reactnative.dev/) – construção da interface
+- **JavaScript (ES6+)** – lógica e estrutura
+- **Context API** – gerenciamento de estado entre componentes
 
-In the output, you'll find options to open the app in a
+## 🤖 Instalação
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+> Requisitos: Node.js, npm/yarn e Expo CLI instalados
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clone o repositório:
 
 ```bash
-npm run reset-project
+git clone https://github.com/seu-usuario/zen-focus.git
+cd zen-focus
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Instale as dependências:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Inicie o projeto com o Expo:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+``` bash
+npx expo start
+```
 
-## Join the community
+📌 Caso o app não conecte (problemas de rede/firewall), use o modo túnel:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start --tunnel
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5. Escaneie o QR code no terminal com o app Expo Go no seu celular.
+
+## 📱 Gerar APK
+
+Faça o build:
+
+``` bash
+eas build --platform android --profile preview
+```
+
+## 📸 Capturas de Tela
+
+### Tela Inicial:
+<div style="display: flex; gap: 15px;">
+   <img src="./assets/images/tela-inicial.jpg" alt="Tela Inicial" width="300"/>
+   <img src="./assets/images/timer-foco.jpg" alt="Timer Foco" width="300"/>
+   <img src="./assets/images/timer-pausa-curta.jpg" alt="Timer Pausa Curta" width="300"/>
+   <img src="./assets/images/timer-pausa-longa.jpg" alt="Timer Pausa Longa" width="300"/>
+   <img src="./assets/images/menu-sidebar.jpg" alt="Menu Sidebar" width="300"/>
+   <img src="./assets/images/to-do-list-inicial.jpg" alt="To Do List Inicial" width="300"/>
+   <img src="./assets/images/to-do-list.jpg" alt="To Do List" width="300"/>
+   <img src="./assets/images/adicionar-tarefa.jpg" alt="Adicionar Tarefa" width="300"/>
+   <img src="./assets/images/editar-tarefa.jpg" alt="Editar Tarefa" width="300"/>
+</div>
+
+## 👩🏻‍💻 Autor
+Desenvolvido por Marcela Ataide
+
+## 📄 Licença
+Este projeto está licenciado sob a MIT License.
+Sinta-se livre para usar, modificar e compartilhar como quiser.
